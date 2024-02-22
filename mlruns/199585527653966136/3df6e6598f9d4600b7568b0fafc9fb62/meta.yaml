@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/Nok_Lam_Chan/dev/kedro-mlflow-example/mlruns/199585527653966136/3df6e6598f9d4600b7568b0fafc9fb62/artifacts
+end_time: 1708611633103
+entry_point_name: ''
+experiment_id: '199585527653966136'
+lifecycle_stage: active
+run_id: 3df6e6598f9d4600b7568b0fafc9fb62
+run_name: __default__
+run_uuid: 3df6e6598f9d4600b7568b0fafc9fb62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708611625986
+status: 3
+tags: []
+user_id: Nok_Lam_Chan

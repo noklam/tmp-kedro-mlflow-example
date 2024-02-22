@@ -1,0 +1,31 @@
+[build-system]
+requires = [ "setuptools",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kedro_mlflow_example"
+readme = "README.md"
+dynamic = [ "dependencies", "version",]
+
+[project.scripts]
+kedro-mlflow-example = "kedro_mlflow_example.__main__:main"
+
+[tool.kedro]
+package_name = "kedro_mlflow_example"
+project_name = "kedro-mlflow-example"
+kedro_init_version = "0.19.2"
+tools = [ "None",]
+example_pipeline = "True"
+source_dir = "src"
+
+[project.entry-points."kedro.hooks"]
+
+[tool.setuptools.dynamic.dependencies]
+file = "requirements.txt"
+
+[tool.setuptools.dynamic.version]
+attr = "kedro_mlflow_example.__version__"
+
+[tool.setuptools.packages.find]
+where = [ "src",]
+namespaces = false
